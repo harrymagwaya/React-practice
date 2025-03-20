@@ -7,20 +7,18 @@ import App from './App.jsx'
 // import Page1 from './componenttest/Page1.jsx'
 // import Footer from './componenttest/footer.jsx'
 // import Header from './componenttest/Header.jsx'
-import Header from './test2/Header.jsx'
-import Content from './test2/Content.jsx'
+// import Header from './test2/Header.jsx'
+//import Content from './test2/Content.jsx'
 import '../src/test2/style/style.css'
+import Header from './blogpost/header.jsx'
+import Content from './blogpost/Content.jsx'
 
 createRoot(document.getElementById('root')).render(
 
  <main>
     <section className='sect'>
-  <Header />
-    {/* <NavBar />
-    <Content /> */}
-    <Content />
-    {/* <Page1 />
-    <Footer /> */}
+    <Header />
+    <Content/>
     </section>
     
   </main>

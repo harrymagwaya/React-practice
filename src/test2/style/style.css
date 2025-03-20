@@ -7,10 +7,7 @@
     padding-left: 40px;
     color: aqua;
     height: 100px;
-    border-radius: 10px;
-    
-
-    
+    border-radius: 10px;  
 }
 
 .div{
@@ -41,7 +38,6 @@
     
     padding-block: 10px;
     line-height: 20px;
-
 }
 
 .cont-list-item::marker{
@@ -65,8 +61,7 @@
     background-position-x: right;
     background-position-y: center;
     background-size: 500px;
-    background-blend-mode: color-burn;
-    
+    background-blend-mode: color-burn;   
 }
 
 .sect {
