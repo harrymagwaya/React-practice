@@ -1,0 +1,75 @@
+
+.head1{
+    border-color: black;
+    background-color: rgb(14, 13, 13);
+    justify-content: left;
+    display: flex;
+    padding-left: 40px;
+    color: aqua;
+    height: 100px;
+    border-radius: 10px;
+    
+
+    
+}
+
+.div{
+    display: flex;
+    align-items: center;
+}
+
+.h{
+    size: 80px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.h2{
+    margin-left: 5px;
+}
+
+.img{
+    width: 30px;
+    margin-left: 2px;
+}
+
+.cont-list{
+    max-width: 500px;
+}
+
+.cont-list-item{
+    
+    padding-block: 10px;
+    line-height: 20px;
+
+}
+
+.cont-list-item::marker{
+    color: aqua;
+    font-size: 1.5rem;
+}
+
+.cont-list-item::content{
+    align-content: start;
+}
+
+.content2{
+    padding-bottom: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 1px;
+    background-color: rgb(31, 28, 28);
+    border-radius: 10px;
+    background-image: url(/src/assets/react.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 500px;
+    background-blend-mode: color-burn;
+    
+}
+
+.sect {
+    border:  solid;
+    border-radius: 10px;
+}
