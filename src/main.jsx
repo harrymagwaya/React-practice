@@ -12,14 +12,13 @@ import App from './App.jsx'
 import '../src/test2/style/style.css'
 import Header from './blogpost/header.jsx'
 import Content from './blogpost/Content.jsx'
+import Contacts from './props-learn/contacts/Contacts.jsx'
 
 createRoot(document.getElementById('root')).render(
 
  <main>
-    <section className='sect'>
-    <Header />
-    <Content/>
-    </section>
-    
+    <Entry>
+      <Contacts/>
+    </Entry>
   </main>
 )
